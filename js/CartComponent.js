@@ -81,7 +81,7 @@ Vue.component('cart-item', {
             </div>`
 })
 Vue.component('user-search', {
-   // не определяется
+
    template: `<div><form action="#" method="post" class="search-form" @click="$root.$refs.products.filter()">
             <input type="text" class="search-field" v-model="userSearch">
             <button class="btn-search" type="submit">
